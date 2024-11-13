@@ -209,3 +209,28 @@ footer {
     }
 }
 
+/* Navigation Link Animations */
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Burger Animation */
+.burger.toggle span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.toggle span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
