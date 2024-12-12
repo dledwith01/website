@@ -3,5 +3,6 @@
 This is a personal website hosted on Github using gh-pages. 
 Oh! and it's written in **<font color="red">markdown</font>**!
 
-| Header      | Title       |
-| Paragraph   | Text        |
+| Projects |
+|----------|
+| [Coffee](https://github.com/dledwith01/coffee) |
